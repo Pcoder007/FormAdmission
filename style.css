@@ -1,0 +1,231 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: #007bff;
+  color: #ffffff;
+  padding: 20px;
+  text-align: center;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+/* Form container */
+.form-container {
+  max-width: 800px;
+  margin: 20px auto;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.name{
+  border-radius: 30px;
+}
+/* Form field styles */
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+}
+.form-group input,
+.form-group select {
+  width: 100%; /* Make each input field take up the full width */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+
+/* Buttons styles */
+.btn {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+.btn:last-child {
+  margin-right: 0;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+  /* Style for the header */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 20px;
+  }
+
+  .curved-square {
+    width: 200px;
+    height: 50px;
+    background-color: #007bff;
+    color: #ffffff;
+    border-radius: 25px;
+    text-align: center;
+    line-height: 50px;
+    font-weight: bold;
+    margin-right: auto;
+  }
+
+  /* Style for buttons */
+  .button-container {
+    display: flex;
+    align-items: flex-start;
+  }
+
+  .btn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 16px;
+    margin-right: 10px;
+  }
+
+  .btn:last-child {
+    margin-right: 0;
+  }
+
+  .btn:hover {
+    background-color: #0056b3;
+  }
+
+  /* Style for form fields */
+  .form-group {
+    margin-bottom: 20px;
+  }
+
+  .form-group label {
+    display: block;
+    font-weight: bold;
+  }
+
+  .form-group input,
+  .form-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  /* Style for required and optional indicators */
+  .indicator {
+    display: inline-block;
+    margin-left: 5px;
+    font-weight: bold;
+  }
+
+  .required {
+    color: #007bff;
+  }
+
+  .optional {
+    color: #808080;
+  }
+
+  /* Style for row layout */
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+
+  .col {
+    flex: 0 0 calc(33.333% - 30px);
+    max-width: calc(33.333% - 30px);
+    padding: 0 15px;
+    box-sizing: border-box;
+  }
+  .add-parent-btn {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+  }
+
+  .add-parent-btn:hover {
+    background-color: #218838;
+  }
+
+  /* Style for reset button */
+  .reset-btn {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+  }
+
+  .reset-btn:hover {
+    background-color: #c82333;
+  }
+  .form-group input,
+  .form-group select {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+  }
+  .add-parent-btn{
+    border-radius: 30px;
+  }
+.lg{
+  background-color: #007bff;
+  border-radius: 30px;
+  width: 30%;
+  size: 30px;
+  color: #fff;
+  font-size-adjust:calc(30px);
+  text-size-adjust: 30px;
+  border-color: #ccc;
+}  
+.gr{
+  background-color:#808080;
+  border-radius: 30px;
+  width: 30%;
+  size: 30px;
+  color: #fff;
+}
+legend .lg{
+  border-radius: 30%;
+}
+.small-logo
+{
+  width: 5px; 
+  height: 5px; 
+  margin-right: 5px;
+}
+
+
