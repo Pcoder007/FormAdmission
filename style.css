@@ -7,7 +7,7 @@ body {
 }
 
 .header {
-  background-color: #007bff;
+  background-color: #ecf0f4;
   color: #ffffff;
   padding: 20px;
   text-align: center;
@@ -71,18 +71,33 @@ body {
   /* Style for the header */
   .header {
     display: flex;
+    background-color: white;
+    padding: 1%;
     justify-content: space-between;
     align-items: flex-start;
     margin-bottom: 20px;
   }
 
+  .C-btn {
+    padding: 10px 20px;
+    background-color:  #dc3545;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 16px;
+    margin-right: 10px;
+  }
+
+  .C-btn:hover {
+    background-color: #c82333;
+  }
+
   .curved-square {
     width: 200px;
     height: 50px;
-    background-color: #007bff;
-    color: #ffffff;
-    border-radius: 25px;
-    text-align: center;
+    color: #000000;
     line-height: 50px;
     font-weight: bold;
     margin-right: auto;
@@ -204,18 +219,19 @@ body {
 .lg{
   background-color: #007bff;
   border-radius: 30px;
-  width: 30%;
+  width: 25%;
   size: 30px;
   color: #fff;
-  font-size-adjust:calc(30px);
-  text-size-adjust: 30px;
+  font-size: x-small;
   border-color: #ccc;
 }  
 .gr{
   background-color:#808080;
   border-radius: 30px;
-  width: 30%;
+  width: 25%;
   size: 30px;
+  color: #fff;
+  font-size: x-small;
   color: #fff;
 }
 legend .lg{
@@ -228,4 +244,6 @@ legend .lg{
   margin-right: 5px;
 }
 
-
+img{
+  height: 40%;
+}
